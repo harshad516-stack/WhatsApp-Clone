@@ -1,0 +1,64 @@
+name: whatsapp_ui
+description: WhatsApp Clone App
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 🔥 Firebase (latest compatible set)
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.0
+  cloud_firestore: ^6.0.0
+  firebase_storage: ^13.0.0
+
+  # 🌍 Utilities
+  country_picker: ^2.0.27
+  intl: ^0.20.0
+  uuid: ^4.5.1
+
+  # 🧠 State Management
+  flutter_riverpod: ^2.0.0
+
+  # 📷 Media
+  image_picker: ^1.2.0
+  video_player: ^2.9.0
+
+  # 📇 Contacts
+  flutter_contacts: ^1.1.7
+
+  # 🖼 UI
+  cached_network_image: ^3.4.1
+  emoji_picker_flutter: ^4.4.0
+
+  # 🔊 Audio
+  audioplayers: ^6.0.0
+  flutter_sound: ^9.30.0
+
+  # 📁 Storage & Permissions
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.0
+
+  # 👉 Extra
+  swipe_to: ^1.0.6
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/backgroundImage.png
+    - assets/bg.png
